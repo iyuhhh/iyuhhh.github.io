@@ -1,78 +1,165 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
+body{
     margin: 0px;
+    font-family: Lora, Helvetica, sans-serif;
+    color: rgb(60, 65, 50);
+}
+body>header{
+    display: flex;
+    font-family: Playwrite, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://st5.depositphotos.com/52593200/62425/v/450/depositphotos_624256578-stock-illustration-aesthetic-cute-pastel-green-checkerboard.jpg');
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat
 }
 #logo{
     margin: 0px;
     padding: 8px;
-    font-family: Fredoka One, sans-serif;
-    text-shadow: 4px 4px 4px darkorange;
+    font-family: Playwrite CU, sans-serif;
+    text-shadow: 0px 2px 2px rgb(150, 160, 130);
 }
-h2{
-    margin: 0px;
-}
-ul{
-    margin: 0px;
-}
-body>header {
-    background-color: orange;
-    color: white;
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
-}
-#nav-ul{
-    display: flex;
-}
-#nav-ul>li{
-    padding: 8px;
-    margin: 16px;
-}
-body>header>nav>ul{
-    list-style: none;
-    text-decoration: none;
-}
-body>main article{
-    width: 70%;
+body>main{
+    width: 80vw;
     margin: auto;
 }
-#main-content{
-    display: flex;
-    justify-content: space-around;
+#welc{
+    color: rgb(150, 160, 130);
+    padding: 0px;
+    margin: 10px;
 }
-#main-content>div{
-    width: 70vw;
+p{
+    margin: 10px;
+}
+#type{
+    display: flex;
+}
+body>main>nav>ul{
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
 }
 .navbutton {
-   color: white;
-   text-decoration: none; 
-   padding: 12px;
-   border: 1px solid white;
-   border-radius: 15%;
+    color:white;
+    background-color: rgb(215, 225, 180);
+    text-decoration: none; 
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 2px dashed rgb(150, 160, 130);
 }
-form{
-    text-align: center;
+#type>li{
+    padding: 8px;
+    margin: 10px 50px;
 }
-h2{
-    text-align: center;
-}
-body>footer{
-    background-color: orange;
-    color: white;
-    display:flex ;
-}
-#footer-ul{
+hgroup{
     display: flex;
-    list-style: none;
+    justify-content: space-between;
 }
-#footer-ul>div>li{
-    margin-left: 12px;
+#prep{
+    border: 2px dashed rgb(215, 225, 180);
+    border-radius: 20px;
+    padding: 5px;
 }
-#footer-ul>div>li>a{
-    color: white;
-    text-decoration: none;
+#cook{
+    border: 2px dashed rgb(215, 225, 180);
+    border-radius: 20px;
+    padding: 5px;
+}
+#dessert{
+    color: rgb(215, 225, 180);
+    padding: 5px;
+}
+#brownies{
+    color: rgb(150, 160, 130);
+}
+#cookies{
+    color: rgb(150, 160, 130);
+}
+hr{
+    color: rgb(215, 225, 180);
+}
+#mbi{
+    column-count: 2;
+    ;
+}
+#mbii{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#mci{
+    column-count: 2;
+    ;
+}
+#mcii{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#cci{
+    column-count: 2;
+    ;
+}
+#ccii{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 img{
-    border-radius: 30%;
+    border-radius: 100%;
+    border: 2px dashed rgb(60, 65, 50);
 }
+#sub{
+    text-align: center;
+    color: rgb(150, 160, 130);
+}
+#sub-box{
+    text-align: center;
+    color: white;
+    background-color: rgb(215, 225, 180);
+    border: 2px dotted rgb(150, 160, 130);
+    border-radius: 20px;
+}
+footer{
+    background-image: url('https://st5.depositphotos.com/52593200/62425/v/450/depositphotos_624256578-stock-illustration-aesthetic-cute-pastel-green-checkerboard.jpg');
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 10vh;
+}
+#footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer-ul>li{
+flex:1;
+text-align:center;
+}
+#back-to-top{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(60, 65, 50);
+}
+#ig{
+    text-decoration: none;
+    color: rgb(60, 65, 50);
+}
+#li{
+    text-decoration: none;
+    color: rgb(60, 65, 50);
+}
+#pc{
+    text-decoration: none;
+    color: rgb(60, 65, 50);
+}
+#pp{
+    text-decoration: none;
+    color: rgb(60, 65, 50);
+}
+

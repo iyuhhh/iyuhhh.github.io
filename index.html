@@ -1,211 +1,216 @@
-<!--index/html-->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlog</title>
+    <title>Cookbook</title>
 </head>
 
 <body>
-    <header id="main-header">
-        <h1 id="logo">BrightBlog</h1>
-        <nav>
-            <ul id="nav-ul">
-                <li>
-                    <a href="/home" class="navbutton">Home</a>
-                    <!-- replance the "/..." with the link the the desired page -->
-                </li>
-                <li>
-                    <a href="about" class="navbutton">About</a>
-                </li>
-                <li>
-                    <a href="/contact" class="navbutton">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<a id="top"></a>
+<header id="main-header">
+<h1 id="logo">reanna's cookbook⋆. 𐙚 ˚</h1>
+<form id="search" action="/search" method="get">
+    <input type="text" name="search" placeholder="search...">
+    <button>search</button>
+</form>
+</header>
 
-    <main>
-        <div id="main-content">
-            <aside>
-                <!-- need CSS later -->
-                <!-- two distinct sections -->
-                <section>
-                    <h4>Filter by Month</h4>
-                    <nav>
-                        <ul>
-                            <li><a href="">Filter for</a> </li>
-                            <li><a href="">Filter for</a></li>
-                            <li><a href="">Filter for</a></li>
-                        </ul>
-                    </nav>
-                </section>
-                <section>
-                    <h4>Filter by Category</h4>
-                    <nav>
-                        <ul>
-                            <li><a href="">Puppies</a></li>
-                            <li><a href="">Dogs</a></li>
-                            <li><a href="">Cats</a></li>
-                            <li><a href="">Hedgehogs</a></li>
-                        </ul>
-                    </nav>
-                </section>
-            </aside>
-            <div>
-                <article>
-                    <!-- article will act like an individual entity so it will have a title, main and a footer -->
-                    
-                    <hgroup>
-                            <!-- article's header goes here -->
-                             <h2>Lorem ipsum dolor sit amet.</h2>
-                             <h3>Read time: 5 minutes</h3>
-                             <!-- hnumber determines the hierarchy of the headings -->
-                    </hgroup>
-                     <main>
-                        <!--a paragraph does not care about internal text formatting  -->
-                        <!-- place holder text: Loren Ipsum -->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eius sed! Ipsam quasi illum sunt exercitationem! Aperiam delectus iusto eius. Adipisci sapiente minima culpa quod error nihil? Ab, quaerat. Quis.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem vel veniam ratione magni eveniet pariatur recusandae officiis perspiciatis dicta natus quam perferendis quasi neque, sed sapiente exercitationem maxime et praesentium, hic temporibus accusantium nihil. Dolor magni odio et! Provident earum veritatis, aspernatur nobis eaque assumenda quae voluptatibus blanditiis pariatur rem harum perferendis obcaecati eos, officiis architecto perspiciatis. Quidem totam praesentium pariatur soluta libero porro amet numquam, repellat quis adipisci obcaecati minus sunt perspiciatis? Saepe praesentium impedit voluptatem, nobis modi facere nostrum molestiae, doloremque necessitatibus laudantium, quisquam obcaecati! Ut laudantium corporis ab temporibus rem fugiat dolores est hic aliquid accusamus.</p>
-                        <!-- loremnumber gives a text with the number words -->
-                        <blockquote>
-                            "Lorem ipsum dolor sit amet consectetur." - <cite>Lorem, ipsum., 2024</cite>
-                        </blockquote>
-                    </main>
-                    <footer>
-                        <h2>Author: Lorem, ipsum.</h2>
-                        <img src="https://placebear.com/300/200" alt="a bear">
-                        <!-- src is the source of the image to be displaced: the url or local to the computer -->
-                        <!-- alt is the text the user will see if the image does not load -->
-                        <h3>Last posted: date</h3>
-                        <a href="\website" target="_blank">Website</a>
-                    </footer>
-                </article>
-                <article>
-                    <!-- article will act like an individual entity so it will have a title, main and a footer -->
-                    
-                    <hgroup>
-                            <!-- article's header goes here -->
-                             <h2>Lorem ipsum dolor sit amet.</h2>
-                             <h3>Read time: 5 minutes</h3>
-                             <!-- hnumber determines the hierarchy of the headings -->
-                    </hgroup>
-                     <main>
-                        <!--a paragraph does not care about internal text formatting  -->
-                        <!-- place holder text: Loren Ipsum -->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eius sed! Ipsam quasi illum sunt exercitationem! Aperiam delectus iusto eius. Adipisci sapiente minima culpa quod error nihil? Ab, quaerat. Quis.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem vel veniam ratione magni eveniet pariatur recusandae officiis perspiciatis dicta natus quam perferendis quasi neque, sed sapiente exercitationem maxime et praesentium, hic temporibus accusantium nihil. Dolor magni odio et! Provident earum veritatis, aspernatur nobis eaque assumenda quae voluptatibus blanditiis pariatur rem harum perferendis obcaecati eos, officiis architecto perspiciatis. Quidem totam praesentium pariatur soluta libero porro amet numquam, repellat quis adipisci obcaecati minus sunt perspiciatis? Saepe praesentium impedit voluptatem, nobis modi facere nostrum molestiae, doloremque necessitatibus laudantium, quisquam obcaecati! Ut laudantium corporis ab temporibus rem fugiat dolores est hic aliquid accusamus.</p>
-                        <!-- loremnumber gives a text with the number words -->
-                        <blockquote>
-                            "Lorem ipsum dolor sit amet consectetur." - <cite>Lorem, ipsum., 2024</cite>
-                        </blockquote>
-                    </main>
-                    <footer>
-                        <h2>Author: Lorem, ipsum.</h2>
-                        <img src="https://placebear.com/100/100" alt="a bear">
-                        <!-- src is the source of the image to be displaced: the url or local to the computer -->
-                        <!-- alt is the text the user will see if the image does not load -->
-                        <h3>Last posted: date</h3>
-                        <a href="\website" target="_blank">Website</a>
-                    </footer>
-                </article>
-                <article>
-                    <!-- article will act like an individual entity so it will have a title, main and a footer -->
-                    
-                    <hgroup>
-                            <!-- article's header goes here -->
-                             <h2>Lorem ipsum dolor sit amet.</h2>
-                             <h3>Read time: 5 minutes</h3>
-                             <!-- hnumber determines the hierarchy of the headings -->
-                    </hgroup>
-                     <main>
-                        <!--a paragraph does not care about internal text formatting  -->
-                        <!-- place holder text: Loren Ipsum -->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eius sed! Ipsam quasi illum sunt exercitationem! Aperiam delectus iusto eius. Adipisci sapiente minima culpa quod error nihil? Ab, quaerat. Quis.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem vel veniam ratione magni eveniet pariatur recusandae officiis perspiciatis dicta natus quam perferendis quasi neque, sed sapiente exercitationem maxime et praesentium, hic temporibus accusantium nihil. Dolor magni odio et! Provident earum veritatis, aspernatur nobis eaque assumenda quae voluptatibus blanditiis pariatur rem harum perferendis obcaecati eos, officiis architecto perspiciatis. Quidem totam praesentium pariatur soluta libero porro amet numquam, repellat quis adipisci obcaecati minus sunt perspiciatis? Saepe praesentium impedit voluptatem, nobis modi facere nostrum molestiae, doloremque necessitatibus laudantium, quisquam obcaecati! Ut laudantium corporis ab temporibus rem fugiat dolores est hic aliquid accusamus.</p>
-                        <!-- loremnumber gives a text with the number words -->
-                        <blockquote>
-                            "Lorem ipsum dolor sit amet consectetur." - <cite>Lorem, ipsum., 2024</cite>
-                        </blockquote>
-                    </main>
-                    <footer>
-                        <h2>Author: Lorem, ipsum.</h2>
-                        <img src="https://placebear.com/200/100" alt="a bear">
-                        <!-- src is the source of the image to be displaced: the url or local to the computer -->
-                        <!-- alt is the text the user will see if the image does not load -->
-                        <h3>Last posted: date</h3>
-                        <a href="\website" target="_blank">Website</a>
-                    </footer>
-                </article>
-            </div>
-        </div>
+<main>
+    <section id="intro">
+        <h2 id="welc">welcome!</h2>
+        <p>hi there! i've created this website so i can share some of my favourite dessert recipes with you, so i hope you enjoy :)</p>
+    </section>
+    <br>
+    <nav>
+        <ul id="type">
+            <li>
+                <a href="#brownies" class="navbutton">brownies</a>
+            </li>
+            <li>
+                <a href="#cookies" class="navbutton">cookies</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <section>
+        <article>
         <hr>
-        <h2>Sign Up for Our Newsletter!</h2>
+        <h2 id="brownies">brownies࿔*:･ﾟ</h2>
+        <hr>
+        <hgroup>
+        <h3 id="dessert">matcha brownies</h3>
+        <h4 id="prep">prep time: 10 minutes</h4>
+        <h4 id="cook">cook time: 25 minutes</h4>
+        </hgroup>
+       <main id="mb">
+            <h4>ingredients:</h4>
+            <ul id="mbi">
+                <li>300g white chocolate</li>
+                <li>1/2 cup melted butter</li>
+                <li>3tbsp matcha powder</li>
+                <li>1/3 cup white sugar</li>
+                <li>2 eggs</li>
+                <li>salt</li>
+                <li>2/3 cups all-purpose flour</li>
+                <li>1/2 tsp baking powder</li>
+            </ul>
+            <div id="mbii">
+                <h4>instructions:</h4>
+                <ol>
+                    <li>preheat oven to 180C</li>
+                    <li>line a baking pan with parchment paper</li>
+                    <li>melt 180g white chocolate and add melted butter</li>
+                    <li>add the matcha powder and sugar to the mixture and stir well</li>
+                    <li>add the eggs and mix</li>
+                    <li>add the flour, salt, and baking powder until everything is well combined</li>
+                    <li>chop the remaining white chocolate and mix it in the batter</li>
+                    <li>pour into the baking tray and bake for 25 minutes</li>
+                    <li>cool and serve</li>
+                </ol>
+                <img src="images/mb.jpeg" alt="matcha brownies" width="200" height="200">
+            </div>
+         </main>
+        </article>
+    </section>
+    <section>
+        <hr>
+        <h2 id="cookies">cookies｡:°ஐ</h2>
+        <hr>
+       <article>
+        <hgroup>
+            <h3 id="dessert">chocolate chip cookies</h3>
+            <br>
+            <h4 id="prep">prep time: 15 minutes</h4>
+            <h4 id="cook">cook time: 15 minutes</h4>
+        </hgroup>
+        <main id="cc">
+            <h4>ingredients:</h4>
+            <ul id="cci">
+                <li>1/2 cup room temp butter</li>
+                <li>1 cup brown sugar</li>
+                <li>1/3 cup white sugar</li>
+                <li>1 egg</li>
+                <li>2 tsp vanilla extract</li>
+                <li>1 tsp salt</li>
+                <li>2 1/2 cups all-purpose flour</li>
+                <li>1/2 tsp baking powder</li>
+                <li>chocolate chunks</li>
+            </ul>
+            <div id="ccii">
+                <h4>instructions:</h4>
+            <ol>
+                <li>preheat oven to 180C</li>
+                <li>line a baking tray with parchment paper</li>
+                <li>in a large bowl, mix the butter with the brown and white sugar</li>
+                <li>add the egg, and the vanilla extract</li>
+                <li>add the flour, salt, and baking powder until everything is well combined</li>
+                <li>mix in the chocolate chunks</li>
+                <li>roll the dough into balls and place on the lined tray</li>
+                <li>bake for 12-15 minutes</li>
+                <li>serve</li>
+            </ol>
+             <img src="images/cc.jpeg" alt="chocolate chip cookies"width="200" height="200">
+            </div>
+         </main>
+       </article>
+       <article>
+            <hr>
+            <hgroup>
+                <h3 id="dessert">matcha cookies</h3>
+                 <br>
+                <h4 id="prep">prep time: 15 minutes</h4>
+                <h4 id="cook">cook time: 15 minutes</h4>
+             </hgroup>
+         <main id="mc">
+            <h4>ingredients:</h4>
+            <ul id="mci">
+                <li>1/2 cup melted butter</li>
+                <li>1/2 cup brown sugar</li>
+                <li>1/4 cup white sugar</li>
+                <li>1 egg</li>
+                <li>1 tsp vanilla extract</li>
+                <li>salt</li>
+                <li>1 1/4 all-purpose flour</li>
+                <li>1 tbsp cornstarch</li>
+                <li>1/2 tsp baking soda</li>
+                <li>1 tbsp matcha powder</li>
+                <li>white chocolate chunks</li>
+            </ul>
+            <div id="mcii">
+                <h4>instructions:</h4>
+            <ol>
+                <li>preheat oven to 180C</li>
+                <li>line a baking tray with parchment paper</li>
+                <li>in a large bowl, mix the melted butter with the brown and white sugar</li>
+                <li>add the egg, and the vanilla extract</li>
+                <li>add the flour, salt, baking soda, cornstarch, and matcha powder until everything is well combined</li>
+                <li>mix in the white chocolate chunks</li>
+                <li>roll the dough into balls and place on the lined tray</li>
+                <li>bake for 12-15 minutes</li>
+                <li>serve</li>
+            </ol>
+            <img src="images/mc.jpeg" alt="matcha cookies" width="200" height="200">
+        </main>       
+       </article>
+    </section>
+    <hr>
+        <h3 id="sub">˚* ੈ✩‧₊subscribe for updates!✧˖*°࿐</h3>   
         <form action="" method="">
-            <label for="first_name">First Name:</label>
+            <div id="sub-box">
+                <label for="name">name:</label>
             <input type="text" id="first_name" name="first_name" required>
             <br>
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required>
-            <br>
-            <label for="email">Email:</label>
+
+            <label for="email">email:</label>
             <input type="email" name="email" id="email" required>
             <br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
+
+            <label for="skill_level">skill level:</label>
+
+            <input type="radio" name="skill skill_level" id="beginner" value="beginner">
+            <label for="beginner">beginner</label>
+
+            <input type="radio" name="skill_level" id="intermediate" value="intermediate">
+            <label for="intermediate">intermediate</label>
+
+            <input type="radio" name="skill_level" id="advanced" value="advanced">
+            <label for="advanced">advanced</label>
             <br>
-            <label for="favourite animal">Favourite Animal:</label>
-            <input type="radio" name="favourite_animal" id="dog" value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="favourite_animal" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="favourite_animal" id="Hedgehog" value="hedgehog">
-            <label for="hedgehog">Hedgehog</label>
-            <br>
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-                <option value="england">England</option>
-                <option value="scotland">Scotland</option>
-                <option value="wales">Wales</option>
-                <option value="northern_ireland">Northern Ireland</option>
+
+            <label for="primary_motivation">primary motivation:</label>
+            <select name="primary_motivation" id="primary_motivation">
+                <option value="for_fun">for fun</option>
+                <option value="as_a_hobby">as a hobby</option>
+                <option value="to_improve_skills">to improve skills</option>
+                <option value="for_business">for business</option>
             </select>
             <br>
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <label for="comment">comment/s:</label>
+            <textarea name="comment" id="comment" placeholder="suggestions?"
+            cols="30" rows="1"></textarea>
             <br>
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">Subscribe to our newsletter!</label>
-            <br>
-            <input type="submit" value="Send!">
+            <input type="submit" value="subscribe!">
+            </div>
         </form>
-        <hr>
-    </main>
-
-    <footer>
-         <h2>BrightBlogSite</h2>
-        <section>
-            <nav>
-                <ul id="footer-ul">
-                    <div>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Careers</a></li>
-                    </div>
-                    <div>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Terms and Conditions</a></li>
-                        <li><a href="">Cookie Policy</a></li>
-                    </div>
-                </ul>
-            </nav>
-        </section>
-    </footer>
+    
+</main>
+<br>
+<footer>
+    <nav>
+        <ul id="footer-ul">
+            <li><a href="#top" id="back-to-top" id="back-to-top">back to top</a></li>
+            <li><a href="https://www.instagram.com/iyabulaong_" id="ig">instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/reanna-cristine-bulaong-ab5795214?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ5Hdx%2Ff4QquZ9WJelmtD3g%3D%3D" id="li">linkedin</a></li>
+            <li><a href="" id="pp">privacy policy</a></li>
+            <li><a href="" id="pc">cookie policy</a></li>
+            </div>
+        </ul>
+    </nav>
+</footer>
 </body>
 </html>
